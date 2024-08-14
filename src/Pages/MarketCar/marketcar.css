@@ -1,0 +1,122 @@
+/* Container styles */
+.marketcar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .marketcar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .marketcar-header h1 {
+    color: #333;
+  }
+  
+  /* Product section styles */
+  .marketcar-products {
+    margin-bottom: 40px;
+  }
+  
+  .marketcar-products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .marketcar-product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .marketcar-product-item {
+    border: 2px solid #007bff; /* Borda azul para os produtos */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .marketcar-product-item:hover {
+    border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  }
+  
+  .marketcar-product-info {
+    flex: 1;
+  }
+  
+  .marketcar-product-title {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .marketcar-product-price {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .marketcar-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .marketcar-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Cart section styles */
+  .marketcar-cart {
+    margin-top: 40px;
+  }
+  
+  .marketcar-cart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .marketcar-cart-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .marketcar-cart-item {
+    border: 2px solid #007bff; /* Borda azul para os itens do carrinho */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .marketcar-cart-item:hover {
+    border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  }
+  
+  .marketcar-cart-info {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .marketcar-total-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
